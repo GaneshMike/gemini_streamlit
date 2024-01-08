@@ -26,7 +26,7 @@ if "chat" not in st.session_state:
     st.session_state.chat = model.start_chat(history = [])
 
 # Display Form Title
-st.title("Chat with Google Gemini-Pro!")
+#st.title("Chat with Google Gemini-Pro!")
 
 # Display chat messages from history above current input box
 for message in st.session_state.chat.history:
